@@ -1,5 +1,4 @@
 # Projet-Web
-qSDFGHJ
 Groupe 6
 
 Ardilly Louis
