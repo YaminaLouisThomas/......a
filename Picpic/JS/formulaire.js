@@ -26,10 +26,21 @@ function recuperation(){
     var savePseudo = [];
     for (var i = 0; i < recuperation.length; i++){
         savePseudo.push(recuperation[i].value);
-    }
-    console.log(savePseudo);
+    } 
     
+    var alea = (Math.random() * (savePseudo.length-1)) + 0;
+    var arrondi = Math.round(alea);
+    var prenom = savePseudo[arrondi];
+    
+    console.log(prenom);
+    return savePseudo;
+
 }
+
+
+
+
+
 
 
     
